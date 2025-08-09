@@ -2,7 +2,7 @@ import { McpServer } from '@mzyil/mcp-typescript-sdk/server/mcp.js'
 import { Implementation } from '@mzyil/mcp-typescript-sdk/types.js'
 import { ServerOptions } from '@mzyil/mcp-typescript-sdk/server/index.js'
 import { BaseTool } from './tool/BaseTool.js'
-import { Transport } from '../mcp-typescript-sdk/dist/cjs/shared/transport.js'
+import { Transport } from '@mzyil/mcp-typescript-sdk/shared/transport.js'
 
 export class Server<T extends new () => BaseTool<unknown, unknown>> {
   private _sdkServer: McpServer | null = null
