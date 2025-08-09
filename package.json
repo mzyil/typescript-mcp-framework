@@ -1,0 +1,38 @@
+{
+  "name": "typescript-mcp-framework",
+  "version": "1.0.0",
+  "description": "A framework to use for developing MCP servers with Typescript",
+  "keywords": [
+    "typescript",
+    "mcp",
+    "sdk"
+  ],
+  "homepage": "https://github.com/mzyil/typescript-mcp-framework#readme",
+  "bugs": {
+    "url": "https://github.com/mzyil/typescript-mcp-framework/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzyil/typescript-mcp-framework.git"
+  },
+  "license": "MIT",
+  "author": "mzyil <mzyil>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.33.0",
+    "@tsconfig/node22": "^22.0.2",
+    "@types/node": "^24.2.1",
+    "@types/jsdom": "^21.1.7",
+    "eslint": "^9.33.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.6.2",
+    "source-map-support": "^0.5.21",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.0"
+  }
+}
