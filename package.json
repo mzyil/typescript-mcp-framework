@@ -1,5 +1,5 @@
 {
-  "name": "typescript-mcp-framework",
+  "name": "@mzyil/typescript-mcp-framework",
   "version": "0.0.0-alpha.001",
   "description": "A framework to use for developing MCP servers with Typescript",
   "engines": {
