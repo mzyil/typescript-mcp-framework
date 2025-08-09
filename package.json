@@ -29,8 +29,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "git submodule init && git submodule update && npm ci --prefix ./mcp-typescript-sdk",
-    "preinstall": "npm run prepare",
     "prepack": "npm run build",
     "build": "tsc"
   },
@@ -48,6 +46,7 @@
     "typescript-eslint": "^8.39.0"
   },
   "dependencies": {
+    "@mzyil/mcp-typescript-sdk": "mzyil/mcp-typescript-sdk@zodv4",
     "zod": "^4.0.16"
   }
 }
