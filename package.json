@@ -48,7 +48,6 @@
     "typescript-eslint": "^8.39.0"
   },
   "dependencies": {
-    "@mzyil/mcp-typescript-sdk": "file://./mcp-typescript-sdk",
     "zod": "^4.0.16"
   }
 }
