@@ -1,7 +1,10 @@
 {
   "name": "typescript-mcp-framework",
-  "version": "1.0.0",
+  "version": "0.0.0-alpha.001",
   "description": "A framework to use for developing MCP servers with Typescript",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "keywords": [
     "typescript",
     "mcp",
@@ -26,13 +29,17 @@
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.33.0",
     "@tsconfig/node22": "^22.0.2",
-    "@types/node": "^24.2.1",
     "@types/jsdom": "^21.1.7",
+    "@types/node": "^24.2.1",
     "eslint": "^9.33.0",
     "eslint-plugin-prettier": "^5.5.4",
     "prettier": "^3.6.2",
     "source-map-support": "^0.5.21",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.39.0"
+  },
+  "dependencies": {
+    "@mzyil/mcp-typescript-sdk": "file://./mcp-typescript-sdk",
+    "zod": "^4.0.16"
   }
 }

@@ -1,0 +1,3 @@
+[submodule "mcp-typescript-sdk"]
+	path = mcp-typescript-sdk
+	url = git@github.com:mzyil/mcp-typescript-sdk.git
