@@ -23,7 +23,7 @@
   "type": "module",
   "exports": {
     "./*": {
-      "import": "./dist/**/*.js"
+      "import": "./dist/*"
     }
   },
   "files": [
