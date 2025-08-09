@@ -23,10 +23,11 @@
   "type": "module",
   "exports": {
     "./*": {
-      "import": "./dist/*"
+      "import": "./dist/**/*.js"
     }
   },
   "files": [
+    "src",
     "dist"
   ],
   "scripts": {
