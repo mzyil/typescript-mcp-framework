@@ -30,7 +30,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "git submodules init && git submodules update && npm ci --prefix ./mcp-typescript-sdk",
-    "preinstall": "npm run prepare",
     "prepack": "npm run build",
     "build": "tsc"
   },
