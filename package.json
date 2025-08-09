@@ -22,9 +22,7 @@
   "author": "mzyil <mzyil>",
   "type": "module",
   "exports": {
-    "./*": {
-      "import": "./dist/*"
-    }
+    "./*": "./dist/*"
   },
   "files": [
     "src",
