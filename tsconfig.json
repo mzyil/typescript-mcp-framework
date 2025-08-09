@@ -4,7 +4,7 @@
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "outDir": "./dist",
-    "rootDir": "./",
+    "rootDir": "./src",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "sourceMap": true,
@@ -13,11 +13,12 @@
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "noUncheckedSideEffectImports": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "declaration": true,
+    "declarationMap": true
   },
   "include": [
-    "src/**/*",
-    "lib/**/*"
+    "src/**/*"
   ],
   "exclude": [
     "node_modules",
